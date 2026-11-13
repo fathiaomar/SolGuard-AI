@@ -12,7 +12,13 @@
 
 </div>
 
-[![SolGuard AI Demo](https://img.youtube.com/vi/wr4mx2HvARI/hqdefault.jpg)](https://youtu.be/wr4mx2HvARI)
+<div align="center">
+
+<a href="https://youtu.be/wr4mx2HvARI">
+  <img src="https://img.youtube.com/vi/wr4mx2HvARI/hqdefault.jpg" alt="SolGuard AI Demo" width="100%">
+</a>
+
+</div>
 
 I created SolGuard AI to bring Solidity contract management and security review into one workspace. It lets developers upload source files, inspect potential issues, and explore suggestions for further analysis. This project showcases my work with Next.js, Supabase, and LLM integrations.
 
