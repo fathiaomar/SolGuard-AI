@@ -11,9 +11,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 </div>
-## 📺 Video Demo
-
-Watch the walkthrough of SolGuard AI in action:
 
 [![SolGuard AI Demo](https://img.youtube.com/vi/wr4mx2HvARI/hqdefault.jpg)](https://youtu.be/wr4mx2HvARI)
 
