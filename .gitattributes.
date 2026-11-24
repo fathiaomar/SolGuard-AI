@@ -1,2 +1,4 @@
-*.sol linguist-detectable=true
-package-lock.json linguist-vendored
+ *.sol linguist-language=Solidity
+*.py linguist-language=Python
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TSX
