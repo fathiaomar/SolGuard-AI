@@ -88,6 +88,10 @@ export default function AuthPage({ mode }) {
         setError('Email or password is incorrect.')
       } else if (authError.message?.toLowerCase().includes('already registered')) {
         setError('An account with this email already exists. Try signing in instead.')
+      } else if (authError.message?.toLowerCase().includes('signups not allowed')) {
+        setError('New account creation is disabled in Supabase. Enable sign-ups in Authentication settings, then try again.')
+      } else if (authError.message?.toLowerCase().includes('email rate limit')) {
+        setError('Too many confirmation emails were requested. Wait a little while, then try again.')
       } else if (authError.message?.toLowerCase().includes('email not confirmed')) {
         setConfirmationPending(true)
         setError('Please verify your email before signing in. Check your inbox for the confirmation link.')

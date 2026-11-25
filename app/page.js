@@ -2,7 +2,7 @@ import Link from 'next/link'
 import {
   ArrowDownRight, ArrowRight, ArrowUpRight, Braces, Check, ChevronRight,
   CircleDot, Clock3, Code2, Download, FileCode2, FileJson2, Fingerprint,
-  FolderKanban, GitBranch, Sparkles, Terminal,
+  FolderKanban, GitBranch, ShieldCheck, Terminal,
 } from 'lucide-react'
 import BrandMark from '../components/BrandMark'
 
@@ -67,7 +67,7 @@ export default function HomePage() {
         <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[.9fr_1.1fr] lg:gap-16">
           <div className="relative">
             <div className="landing-kicker mb-6 inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-[10px] font-medium tracking-wide">
-              <Sparkles size={13} /> Solidity review workspace
+              <ShieldCheck size={13} aria-hidden="true" /> Solidity review workspace
             </div>
             <h1 className="max-w-2xl text-4xl font-semibold leading-[1.08] tracking-[-0.045em] text-white sm:text-6xl lg:text-[68px]">
               See the code.
